@@ -6,11 +6,6 @@ data/
 *.zst
 *.pkl
 
-# Saved model weights & large checkpoints
-*.pt
-*.pth
-*.h5
-
 # Python & Jupyter artifacts
 __pycache__/
 *.pyc
@@ -24,3 +19,7 @@ env/
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Allow small trained models saved inside outputs/models/
+!outputs/models/*.pth
+!outputs/models/*.joblib
