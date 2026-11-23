@@ -1,0 +1,26 @@
+# Datasets & large generated feature packs (downloaded automatically by notebook)
+data/
+*.parquet
+*.npy
+*.joblib
+*.zst
+*.pkl
+
+# Saved model weights & large checkpoints
+*.pt
+*.pth
+*.h5
+
+# Python & Jupyter artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# OS / IDE clutter
+.DS_Store
+Thumbs.db
+.vscode/
